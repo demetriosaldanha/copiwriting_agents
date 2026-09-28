@@ -1,0 +1,15 @@
+[project]
+name = "dev-agno"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "agno>=3.0.11",
+    "fastapi>=0.141.1",
+    "groq>=1.7.0",
+    "openai>=3.19.2",
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.3",
+    "sqlalchemy[asyncio]>=2.1.1",
+    "streamlit>=1.64.0",
+    "uvicorn>=0.54.0",
+]
